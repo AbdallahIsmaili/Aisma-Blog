@@ -2,6 +2,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background: whitesmoke !important;
 }
 
 .container{
@@ -48,6 +49,12 @@ nav{
 
 .input-grp input:focus{
     border-bottom: 2px solid lime !important;
+}
+
+.article{
+    background: #fbfbfb !important;
+    padding: 2rem;
+    margin-top: 2.2rem;
 }
 
 @media only screen and (min-width: 993px){
