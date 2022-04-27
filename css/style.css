@@ -5,13 +5,53 @@ body{
 }
 
 .container{
-    width: 95%;
+    width: 100%;
 }
 
 nav .nav-wrapper{
     padding-right: 20px;
 }
 
+nav{
+    background-color: #212121 !important;
+}
+
 .sidenav{
     padding-top: 30px;
+}
+
+#header2{
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+#header1{
+    font-weight: 700;
+}
+
+.add-post{
+    margin-top: 5rem;
+}
+
+.input-grp{
+    margin-bottom: .5rem;
+    margin-bottom: 2rem;
+}
+.input-grp label{
+    font-size: 1.15rem;
+}
+
+.add-post button{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.input-grp input:focus{
+    border-bottom: 2px solid lime !important;
+}
+
+@media only screen and (min-width: 993px){
+    .container{
+        width: 90%;
+    }
 }
