@@ -7,24 +7,13 @@
 
     if(isset($result)){
         while($row = mysqli_fetch_assoc($result)){ ?>
-            <!-- $title = $row['title'];
-            $content = $row['content']; -->
             <div class="article">
                 <div class="container">
-                    <h4><a href=""> <?php echo $row['title']; ?> </a></h4>
+                    <h4><a href="post.php?id=<?php echo $row['id'] ?>"> <?php echo $row['title']; ?> </a></h4>
                     <p><?php echo $row['content']; ?></p>
-                    <a><button class="btn black">Read More</button></a>
+                    <a href="post.php?id=<?php echo $row['id'] ?>"><button class="btn black">Read More</button></>
                 </div>
             </div>
-
-            
-            <!-- $id = $row['id'];
-            echo "<div class='post'>";
-            echo "<h1>$title</h1>";
-            echo "<p>$content</p>";
-            echo "<a href='edit-post.php?id=$id' class='btn black'>Edit</a>";
-            echo "<a href='delete-post.php?id=$id' class='btn black'>Delete</a>";
-            echo "</div>"; -->
 <?php
         }
     }

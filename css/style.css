@@ -57,6 +57,10 @@ nav{
     margin-top: 2.2rem;
 }
 
+.article button{
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 993px){
     .container{
         width: 90%;
