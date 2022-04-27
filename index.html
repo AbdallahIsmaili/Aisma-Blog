@@ -8,9 +8,12 @@
     <!-- Boxicons link: -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- Materialize icons: -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
     <!-- Stylesheets: -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/materialize.css">
+    <link rel="stylesheet" type="text/css"  href="/css/style.css">
+    <link rel="stylesheet" href="/css/materialize.css" type="text/css">
 
     <!-- the Title: -->
     <title>Isma Daily blog</title>
@@ -18,13 +21,36 @@
 <body>
 
     <!-- Navbar: -->
-    
+    <nav class="nav-extended">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo">iDaily</a>
+                <a href="#" data-target="slide-out" class="right hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/addPost">Add Post</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </div>
+        </div>
 
+        <ul id="slide-out" class="sidenav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/addPost">Add Post</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+        
+    
     <!-- MY SCRIPTS: -->
+
     <!-- jquery: -->
     <script src="/script/jquery-3.6.0.js"></script>
 
     <!-- materialize: -->
     <script src="/script/materialize.js"></script>
+
+    <!-- Javascript : -->
+    <script src="/script/script.js"></script>
+
 </body>
 </html>
