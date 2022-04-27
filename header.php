@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
     <!-- Stylesheets: -->
-    <link rel="stylesheet" type="text/css"  href="/css/style.css">
-    <link rel="stylesheet" href="/css/materialize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/materialize.css" type="text/css">
 
     <!-- the Title: -->
     <title>Isma Daily blog</title>
@@ -27,30 +27,16 @@
                 <a href="/" class="brand-logo">iDaily</a>
                 <a href="#" data-target="slide-out" class="right hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/add-post.html">Add Post</a></li>
-                    <li><a href="/about.html">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="add-post.php">Add Post</a></li>
+                    <li><a href="about.php">About</a></li>
                 </ul>
             </div>
         </div>
+    </nav>
 
         <ul id="slide-out" class="sidenav">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/add-post.html">Add Post</a></li>
-            <li><a href="/about.html">About</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="add-post.php">Add Post</a></li>
+            <li><a href="about.php">About</a></li>
         </ul>
-        
-    
-    <!-- MY SCRIPTS: -->
-
-    <!-- jquery: -->
-    <script src="/script/jquery-3.6.0.js"></script>
-
-    <!-- materialize: -->
-    <script src="/script/materialize.js"></script>
-
-    <!-- Javascript : -->
-    <script src="/script/script.js"></script>
-
-</body>
-</html>
